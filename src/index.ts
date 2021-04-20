@@ -1,12 +1,8 @@
-const fName = "Hoeinn",
-      age = 20,
-      gender = "male";
-
-const sayHi = (fName, age, gender?) => {
+const sayHi = (fName: string, age: number, gender: string): void => {
   console.log(`Hi ${fName}, you are ${age}, and you are a ${gender}`);
 };
 
-sayHi(fName, age, gender);
+sayHi("hoeinn", 333, "male");
 
 export{};
 
