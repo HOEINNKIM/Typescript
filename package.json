@@ -4,10 +4,11 @@
   "description": "Learning Typescript",
   "main": "index.js",
   "repository": "https://github.com/hoeinnkim/typescript",
-  "author": "HOEINNKIM",
+  "author": "Thanks Nicolas",
   "license": "MIT",
   "scripts": {
-    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+    "start":"node dist/index.js",
+    "prestart":"tsc"
   },
   "devDependencies": {
     "tsc-watch": "^1.0.17"

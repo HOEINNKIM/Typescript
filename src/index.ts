@@ -1,3 +1,21 @@
+const fName = "Hoeinn",
+      age = 20,
+      gender = "male";
+
+const sayHi = (fName, age, gender?) => {
+  console.log(`Hi ${fName}, you are ${age}, and you are a ${gender}`);
+};
+
+sayHi(fName, age, gender);
+
+export{};
+
+
+
+
+
+
+/*
 import * as CryptoJS from "crypto-js";
 
 class Block {
@@ -103,3 +121,5 @@ createNewBlock("fourth block");
 console.log(blockchain);
 
 export {};
+
+*/
