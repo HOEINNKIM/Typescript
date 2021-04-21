@@ -8,6 +8,8 @@ sayHi("hoeinn", 333, "male");
 sayHi("1",1,"female");
 
 test.Test();
+test.Test();
+test.Test();
 
 export{};
 
