@@ -1,8 +1,13 @@
+import * as test from "./test.js";
+
 const sayHi = (fName: string, age: number, gender: string): void => {
   console.log(`Hi ${fName}, you are ${age}, and you are a ${gender}`);
 };
 
-sayHi("hoeinn", 333, "male");
+sayHi("hoeinn", 333, "male"); 
+sayHi("1",1,"female");
+
+test.Test();
 
 export{};
 

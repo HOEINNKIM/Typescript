@@ -2,152 +2,135 @@
 # yarn lockfile v1
 
 
-ansi-styles@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
+"ansi-regex@^5.0.0":
+  "integrity" "sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg=="
+  "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.0.tgz"
+  "version" "5.0.0"
+
+"cross-spawn@^7.0.3":
+  "integrity" "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w=="
+  "resolved" "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
+  "version" "7.0.3"
   dependencies:
-    color-convert "^1.9.0"
+    "path-key" "^3.1.0"
+    "shebang-command" "^2.0.0"
+    "which" "^2.0.1"
 
-chalk@^2.3.0:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.3.2.tgz#250dc96b07491bfd601e648d66ddf5f60c7a5c65"
+"crypto-js@^3.1.9-1":
+  "resolved" "https://registry.npmjs.org/crypto-js/-/crypto-js-3.1.9-1.tgz"
+  "version" "3.1.9-1"
+
+"duplexer@~0.1.1":
+  "resolved" "https://registry.npmjs.org/duplexer/-/duplexer-0.1.1.tgz"
+  "version" "0.1.1"
+
+"event-stream@=3.3.4":
+  "integrity" "sha1-SrTJoPWlTbkzi0w02Gv86PSzVXE="
+  "resolved" "https://registry.npmjs.org/event-stream/-/event-stream-3.3.4.tgz"
+  "version" "3.3.4"
   dependencies:
-    ansi-styles "^3.2.1"
-    escape-string-regexp "^1.0.5"
-    supports-color "^5.3.0"
+    "duplexer" "~0.1.1"
+    "from" "~0"
+    "map-stream" "~0.1.0"
+    "pause-stream" "0.0.11"
+    "split" "0.3"
+    "stream-combiner" "~0.0.4"
+    "through" "~2.3.1"
 
-color-convert@^1.9.0:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.1.tgz#c1261107aeb2f294ebffec9ed9ecad529a6097ed"
+"from@~0":
+  "resolved" "https://registry.npmjs.org/from/-/from-0.1.7.tgz"
+  "version" "0.1.7"
+
+"isexe@^2.0.0":
+  "resolved" "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
+  "version" "2.0.0"
+
+"map-stream@~0.1.0":
+  "resolved" "https://registry.npmjs.org/map-stream/-/map-stream-0.1.0.tgz"
+  "version" "0.1.0"
+
+"node-cleanup@^2.1.2":
+  "integrity" "sha1-esGavSl+Caf3KnFUXZUbUX5N3iw="
+  "resolved" "https://registry.npmjs.org/node-cleanup/-/node-cleanup-2.1.2.tgz"
+  "version" "2.1.2"
+
+"path-key@^3.1.0":
+  "integrity" "sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q=="
+  "resolved" "https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz"
+  "version" "3.1.1"
+
+"pause-stream@0.0.11":
+  "resolved" "https://registry.npmjs.org/pause-stream/-/pause-stream-0.0.11.tgz"
+  "version" "0.0.11"
   dependencies:
-    color-name "^1.1.1"
+    "through" "~2.3"
 
-color-name@^1.1.1:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
-
-cross-spawn@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
+"ps-tree@^1.2.0":
+  "integrity" "sha512-0VnamPPYHl4uaU/nSFeZZpR21QAWRz+sRv4iW9+v/GS/J5U5iZB5BNN6J0RMoOvdx2gWM2+ZFMIm58q24e4UYA=="
+  "resolved" "https://registry.npmjs.org/ps-tree/-/ps-tree-1.2.0.tgz"
+  "version" "1.2.0"
   dependencies:
-    lru-cache "^4.0.1"
-    shebang-command "^1.2.0"
-    which "^1.2.9"
+    "event-stream" "=3.3.4"
 
-crypto-js@^3.1.9-1:
-  version "3.1.9-1"
-  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-3.1.9-1.tgz#fda19e761fc077e01ffbfdc6e9fdfc59e8806cd8"
-
-duplexer@~0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
-
-escape-string-regexp@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
-
-event-stream@~3.3.0:
-  version "3.3.4"
-  resolved "http://registry.npmjs.org/event-stream/-/event-stream-3.3.4.tgz#4ab4c9a0f5a54db9338b4c34d86bfce8f4b35571"
+"shebang-command@^2.0.0":
+  "integrity" "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA=="
+  "resolved" "https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz"
+  "version" "2.0.0"
   dependencies:
-    duplexer "~0.1.1"
-    from "~0"
-    map-stream "~0.1.0"
-    pause-stream "0.0.11"
-    split "0.3"
-    stream-combiner "~0.0.4"
-    through "~2.3.1"
+    "shebang-regex" "^3.0.0"
 
-from@~0:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/from/-/from-0.1.7.tgz#83c60afc58b9c56997007ed1a768b3ab303a44fe"
+"shebang-regex@^3.0.0":
+  "integrity" "sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A=="
+  "resolved" "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz"
+  "version" "3.0.0"
 
-has-flag@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
-
-isexe@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
-
-lru-cache@^4.0.1:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.2.tgz#45234b2e6e2f2b33da125624c4664929a0224c3f"
+"split@0.3":
+  "resolved" "https://registry.npmjs.org/split/-/split-0.3.3.tgz"
+  "version" "0.3.3"
   dependencies:
-    pseudomap "^1.0.2"
-    yallist "^2.1.2"
+    "through" "2"
 
-map-stream@~0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/map-stream/-/map-stream-0.1.0.tgz#e56aa94c4c8055a16404a0674b78f215f7c8e194"
-
-pause-stream@0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/pause-stream/-/pause-stream-0.0.11.tgz#fe5a34b0cbce12b5aa6a2b403ee2e73b602f1445"
+"stream-combiner@~0.0.4":
+  "resolved" "https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.0.4.tgz"
+  "version" "0.0.4"
   dependencies:
-    through "~2.3"
+    "duplexer" "~0.1.1"
 
-ps-tree@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/ps-tree/-/ps-tree-1.1.0.tgz#b421b24140d6203f1ed3c76996b4427b08e8c014"
+"string-argv@^0.1.1":
+  "integrity" "sha512-mBqPGEOMNJKXRo7z0keX0wlAhbBAjilUdPW13nN0PecVryZxdHIeM7TqbsSUA7VYuS00HGC6mojP7DlQzfa9ZA=="
+  "resolved" "https://registry.npmjs.org/string-argv/-/string-argv-0.1.2.tgz"
+  "version" "0.1.2"
+
+"strip-ansi@^6.0.0":
+  "integrity" "sha512-AuvKTrTfQNYNIctbR1K/YGTR1756GycPsg7b9bdV9Duqur4gv6aKqHXah67Z8ImS7WEz5QVcOtlfW2rZEugt6w=="
+  "resolved" "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.0.tgz"
+  "version" "6.0.0"
   dependencies:
-    event-stream "~3.3.0"
+    "ansi-regex" "^5.0.0"
 
-pseudomap@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
+"through@~2.3", "through@~2.3.1", "through@2":
+  "resolved" "https://registry.npmjs.org/through/-/through-2.3.8.tgz"
+  "version" "2.3.8"
 
-shebang-command@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-1.2.0.tgz#44aac65b695b03398968c39f363fee5deafdf1ea"
+"tsc-watch@^4.2.9":
+  "integrity" "sha512-DlTaoDs74+KUpyWr7dCGhuscAUKCz6CiFduBN7R9RbLJSSN1moWdwoCLASE7+zLgGvV5AwXfYDiEMAsPGaO+Vw=="
+  "resolved" "https://registry.npmjs.org/tsc-watch/-/tsc-watch-4.2.9.tgz"
+  "version" "4.2.9"
   dependencies:
-    shebang-regex "^1.0.0"
+    "cross-spawn" "^7.0.3"
+    "node-cleanup" "^2.1.2"
+    "ps-tree" "^1.2.0"
+    "string-argv" "^0.1.1"
+    "strip-ansi" "^6.0.0"
 
-shebang-regex@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
+"typescript@*":
+  "integrity" "sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.2.4.tgz"
+  "version" "4.2.4"
 
-split@0.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/split/-/split-0.3.3.tgz#cd0eea5e63a211dfff7eb0f091c4133e2d0dd28f"
+"which@^2.0.1":
+  "integrity" "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA=="
+  "resolved" "https://registry.npmjs.org/which/-/which-2.0.2.tgz"
+  "version" "2.0.2"
   dependencies:
-    through "2"
-
-stream-combiner@~0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/stream-combiner/-/stream-combiner-0.0.4.tgz#4d5e433c185261dde623ca3f44c586bcf5c4ad14"
-  dependencies:
-    duplexer "~0.1.1"
-
-supports-color@^5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.3.0.tgz#5b24ac15db80fa927cf5227a4a33fd3c4c7676c0"
-  dependencies:
-    has-flag "^3.0.0"
-
-through@2, through@~2.3, through@~2.3.1:
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
-
-tsc-watch@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/tsc-watch/-/tsc-watch-1.0.17.tgz#c33e564aba93617823b17996f2dd999cefb7a0b9"
-  dependencies:
-    chalk "^2.3.0"
-    cross-spawn "^5.1.0"
-    ps-tree "^1.1.0"
-    typescript "*"
-
-typescript@*:
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"
-
-which@^1.2.9:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/which/-/which-1.3.0.tgz#ff04bdfc010ee547d780bec38e1ac1c2777d253a"
-  dependencies:
-    isexe "^2.0.0"
-
-yallist@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
+    "isexe" "^2.0.0"
