@@ -1,14 +1,24 @@
 import * as test from "./test.js";
 
-const sayHi = (fName: string, age: number, gender: string): void => {
-  console.log(`Hi ${fName}, you are ${age}, and you are a ${gender}`);
+class Human {
+  public name:string;
+  public age: number;
+  public gender: string;
+  constructor(name: string, age: number, gender?: string){
+    this.name = name;
+    this.age = age;
+    this.gender = gender;
+  }; 
+}
+
+const kim = new Human("kim", 18, "male");
+
+const sayHi = (personA: Human): string => {
+  return `Hi ${personA.name}, you are ${personA.age}, and you are a ${personA.gender}!`;
 };
 
-sayHi("hoeinn", 333, "male"); 
-sayHi("1",1,"female");
+console.log(sayHi(kim));
 
-test.Test();
-test.Test();
 test.Test();
 
 export{};
